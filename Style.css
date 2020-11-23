@@ -6,29 +6,115 @@
 
 
 /*Header Styling*/
+#titlebox {
+  background-color: rgb(8, 148, 141) ;
+  padding: 10px ;
+  text-align: center;
+  color: white;
+}
+/*Header Styling End*/
 
 
 /*Nav styling*/
-
+.nav-link{
+  color: grey;
+}
 
 
 /* Nav Stylng End */
 
 /* Content Styling */
+.img-fluid{
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  padding-bottom: 25%;
+  padding-top: 15%
+}
+
+.center{
+  text-align: center;
+  color: grey;
+}
+
+
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+#fixed {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  left: 0;
+
+
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  background: rgb(8, 148, 141);
+}
+
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#relative {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #eee;
+}
+
+#absolute {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  background:rgb(8, 148, 141);
+}
 
 
 
 /* Content Styling End */
 
-/* Article Styling */
 
-
-
-/* Sidebar Styling End*/
 
 
 
 /* Footer Styling */
+#footerbox {
+  background-color: rgb(8, 148, 141) ;
+  padding: 10px ;
+}
+
+#footercontactbox {
+  background-color: rgb(8, 148, 141) ;
+  padding: 10px ;
+  margin-top: 570px;
+
+}
 
 
 /* Footer Styling End */
